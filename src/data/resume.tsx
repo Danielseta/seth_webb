@@ -1,4 +1,5 @@
 import { Icons } from "@/components/icons";
+import { Certificate } from "crypto";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
@@ -143,12 +144,12 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
+      school: "St John's Scondary School",
+      href: "",
+      Certificate: "Grade 12 (8B-12B)",
       logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
+      start: "2015",
+      end: "2019",
     },
     {
       school: "University of Waterloo",
