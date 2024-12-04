@@ -151,7 +151,7 @@ export const DATA = {
     {
       school: "St John's Scondary School",
       href: "",
-      Certificate: "Grade 12 (8B-12B)",
+      degree: "Grade 12 (8B-12B)",
       logoUrl: "/buildspace.jpg",
       start: "2015",
       end: "2019",
