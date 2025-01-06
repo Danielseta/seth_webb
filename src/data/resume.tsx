@@ -21,10 +21,7 @@ export const DATA = {
     "Graphics Design",
     "Photography",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "danielseta37@gmail.com",
     tel: "+260 097 328 7008",
@@ -49,7 +46,6 @@ export const DATA = {
         icon: Icons.x,
 
         navbar: true,
-      
       },
       email: {
         name: "Send Email",
@@ -83,8 +79,6 @@ export const DATA = {
       logoUrl: "/imbr.png",
       start: "September 2024",
       end: "December 2024",
-      description:
-        "As a dedicated UI/UX Designer with a growing interest in frontend development, I'm passionate about creating user-centered digital experiences that are both visually appealing and highly functional. I'm skilled in Figma, Adobe XD, HTML, CSS, JavaScript and eager to apply my knowledge and skills to contribute to IMBRA's innovative projects. I'm excited about the opportunity to collaborate with a talented team and learn from experienced professionals.",
     },
     {
       company: "Forte Digital Solution",
@@ -107,9 +101,7 @@ export const DATA = {
       logoUrl: "/jb.png",
       start: "May 2024",
       end: "Aug 2024",
-      description:
-      "",
-      },
+    },
     {
       company: "JBSims Consultancy",
       href: "https://www.jbsimsconsultancy.com",
@@ -119,8 +111,6 @@ export const DATA = {
       logoUrl: "/jb.png",
       start: "May 2023",
       end: "Aug 2023",
-      description:
-      "",
       },
     {
       company: "Zuha Africa Youth Organisation",
@@ -151,7 +141,7 @@ export const DATA = {
     {
       school: "St John's Scondary School",
       href: "",
-      degree: "Grade 12 (8B-12B)",
+      degree: "Certiicate Grade 12 (8B-12B)",
       logoUrl: "/buildspace.jpg",
       start: "2015",
       end: "2019",

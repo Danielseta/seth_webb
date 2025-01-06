@@ -6,17 +6,15 @@ import { useRef } from "react";
 interface BlurFadeProps {
   children: React.ReactNode;
   className?: string;
-  variant?: {
-    hidden: { y: number };
-    visible: { y: number };
-  };
+  variant?: Variants; // Use Variants type directly
   duration?: number;
   delay?: number;
   yOffset?: number;
   inView?: boolean;
-  inViewMargin?: string;
+  inViewMargin?: string | number; // Allow string or number
   blur?: string;
 }
+
 const BlurFade = ({
   children,
   className,
@@ -28,14 +26,16 @@ const BlurFade = ({
   inViewMargin = "-50px",
   blur = "6px",
 }: BlurFadeProps) => {
-  const ref = useRef(null);
-  const inViewResult = useInView(ref, { once: true, margin: inViewMargin });
-  const isInView = !inView || inViewResult;
+  const ref = useRef<HTMLDivElement>(null); // Explicitly type the ref
+  const isInView = useInView(ref, { once: true });
+
   const defaultVariants: Variants = {
     hidden: { y: yOffset, opacity: 0, filter: `blur(${blur})` },
-    visible: { y: -yOffset, opacity: 1, filter: `blur(0px)` },
+    visible: { y: 0, opacity: 1, filter: `blur(0px)` }, // Corrected y value for visible state
   };
+
   const combinedVariants = variant || defaultVariants;
+
   return (
     <AnimatePresence>
       <motion.div
@@ -50,6 +50,7 @@ const BlurFade = ({
           ease: "easeOut",
         }}
         className={className}
+        style={{ willChange: "transform, opacity, filter" }} // Improve performance
       >
         {children}
       </motion.div>
