@@ -67,8 +67,7 @@ export const DATA = {
       logoUrl: "/inter.png",
       start: "January 2023",
       end: "Present",
-      description:
-        "",
+      description: "",
     },
     {
       company: "imbra",
@@ -89,8 +88,7 @@ export const DATA = {
       logoUrl: "/forte.png",
       start: "Aug 2024",
       end: "Aug 2024",
-      description:
-      "",
+      description: "",
     },
     {
       company: "JBSims Consultancy",
@@ -111,7 +109,7 @@ export const DATA = {
       logoUrl: "/jb.png",
       start: "May 2023",
       end: "Aug 2023",
-      },
+    },
     {
       company: "Zuha Africa Youth Organisation",
       href: "",
@@ -121,8 +119,7 @@ export const DATA = {
       logoUrl: "/zuha.png",
       start: "January 2019",
       end: "Present",
-      description:
-      "",
+      description: "",
     },
     {
       company: "RDG Collective",
@@ -155,5 +152,4 @@ export const DATA = {
       end: "2025",
     },
   ],
-
 } as const;
