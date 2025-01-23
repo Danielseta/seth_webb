@@ -7,9 +7,7 @@ import { useTheme } from "next-themes";
 export function ModeToggle() {
   const { theme, setTheme } = useTheme();
 
-  return (
-    <Button
-      v
+
       className="px-2"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
