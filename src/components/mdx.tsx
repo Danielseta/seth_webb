@@ -11,9 +11,7 @@ function Table({ data }: { data: { headers: string[]; rows: string[][] } }) {
       {row.map((cell, cellIndex) => (
         <td key={cellIndex}>{cell}</td>
       ))}
-    </
-      <thead>
-        <tr>{headers}</tr>
+ 
       </thead>
       <tbody>{rows}</tbody>
  
