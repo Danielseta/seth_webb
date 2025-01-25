@@ -12,8 +12,7 @@ function Table({ data }: { data: { headers: string[]; rows: string[][] } }) {
         <td key={cellIndex}>{cell}</td>
       ))}
  
-      </thead>
-      <tbody>{rows}</tbody>
+     
  
 
 function CustomLink(props: any) {
