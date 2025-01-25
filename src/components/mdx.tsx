@@ -7,9 +7,7 @@ function Table({ data }: { data: { headers: string[]; rows: string[][] } }) {
     <th key={index}>{header}</th>
   ));
   let rows = data.rows.map((row, index) => (
-    <tr key={index}>
-      {row.map((cell, cellIndex) => (
-    
+    <tr key
      
  
 
