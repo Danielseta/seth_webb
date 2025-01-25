@@ -16,9 +16,7 @@ function Table({ data }: { data: { headers: string[]; rows: string[][] } }) {
         <tr>{headers}</tr>
       </thead>
       <tbody>{rows}</tbody>
-    </table>
-  );
-}
+ 
 
 function CustomLink(props: any) {
   let href = props.href;
