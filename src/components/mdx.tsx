@@ -9,9 +9,7 @@ function Table({ data }: { data: { headers: string[]; rows: string[][] } }) {
   let rows = data.rows.map((row, index) => (
     <tr key={index}>
       {row.map((cell, cellIndex) => (
-        <td key={cellIndex}>{cell}</td>
-      ))}
- 
+    
      
  
 
