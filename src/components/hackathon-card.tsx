@@ -19,8 +19,7 @@ export function HackathonCard({
   title,
   description,
   dates,
-  location,
-  image,
+
   links,
 }: Props) {
   return (
