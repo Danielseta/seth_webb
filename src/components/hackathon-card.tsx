@@ -6,9 +6,7 @@ interface Props {
   title: string;
 
 export function HackathonCard({
-  title,
-  description,
-  dates,
+
 
   links,
 }: Props) {
