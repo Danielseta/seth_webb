@@ -37,9 +37,7 @@ export function HackathonCard({
         )}
         {description && (
           <span className="prose dark:prose-invert text-sm text-muted-foreground">
-            {description}
-          </span>
-        )}
+      
       </div>
       {links && links.length > 0 && (
         <div className="mt-2 flex flex-row flex-wrap items-start gap-2">
