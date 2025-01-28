@@ -4,9 +4,6 @@ import Link from "next/link";
 
 interface Props {
   title: string;
-  description: string;
-  dates: strin
-}
 
 export function HackathonCard({
   title,
