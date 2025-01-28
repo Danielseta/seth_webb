@@ -7,9 +7,7 @@ interface Props {
   description: string;
   dates: string;
   location: string;
-  image?: string;
-  links?: readonly {
-    href: string;
+  image?: s
   }[];
 }
 
