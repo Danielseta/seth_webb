@@ -10,8 +10,7 @@ interface Props {
           <AvatarImage src={image} alt={title} 
       <div className="flex f
           <time className="text-xs text- leading-none">{title}</h2>
-        {location && (
-          <p className="text-sm text-muted-foreground">{location}</p>
+        {l
         )}
         {description && (
           <span className="prose dark:prose-invert text-sm text-muted-foreground">
