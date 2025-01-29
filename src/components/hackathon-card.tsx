@@ -3,12 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 
 interface Props {
-  title: string;
-
-export function HackathonCard({
-
-
-  return (
+  title: str
     <li className="relative ml-10 py-4">
       <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
         <Avatar className="border size-12 m-auto">
