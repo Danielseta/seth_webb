@@ -8,8 +8,6 @@ interface Props {
 export function HackathonCard({
 
 
-  links,
-}: Props) {
   return (
     <li className="relative ml-10 py-4">
       <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
