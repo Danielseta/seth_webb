@@ -9,9 +9,7 @@ interface Props {
         <Avatar className="border size-12 m-auto">
           <AvatarImage src={image} alt={title} 
       <div className="flex f
-          <time className="text-xs text- leading-none">{title}</h2>
-        {l
-        )}
+          <time className="text-xs text
         {description && (
           <span className="prose dark:prose-invert text-sm text-muted-foreground">
       
