@@ -11,7 +11,7 @@ interface Props {
       <div className="flex f
           <time className="text-xs text
         {description && (
-          <span className="prose dark:prose-invert text-sm text-muted-foreground">
+          <span className="prose dark:prose
       
       </div>
       {links && links.length > 0 && (
