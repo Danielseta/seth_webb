@@ -8,8 +8,7 @@ interface Props {
       <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
         <Avatar className="border size-12 m-auto">
           <AvatarImage src={image} alt={title} 
-      <div className="flex f
-          <time className="text-xs text
+     
       
       
       </div>
