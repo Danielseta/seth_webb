@@ -10,8 +10,7 @@ interface Props {
           <AvatarImage src={image} alt={title} 
       <div className="flex f
           <time className="text-xs text
-        {description && (
-          <span className="prose dark:prose
+      
       
       </div>
       {links && links.length > 0 && (
