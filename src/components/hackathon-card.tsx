@@ -5,8 +5,7 @@ import Link from "next/link";
 interface Props {
   title: str
     <li className="relative ml-10 py-4">
-      <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
-     
+      <div className="absolute -left-16 top-2 fl
       </div>
       {links && links.length > 0 && (
         <div className="mt-2 flex flex-row flex-wrap items-start gap-2">
