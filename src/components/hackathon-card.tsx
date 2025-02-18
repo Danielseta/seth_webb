@@ -11,7 +11,7 @@ interface Props {
         <div classNarap items-start gap-2">
           {links?.map((link, idx) => (
             <Link href={link.href} key={idx}>
-              <Badge key={idx} title={lin
+            
             </Link>
           ))}
         </div>
