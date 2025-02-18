@@ -8,8 +8,7 @@ interface Props {
       <div className="absolute -left-16 top-2 fl
       </div>
       {links && links.length > 0 && (
-        <div classNarap items-start gap-2">
-          {links?.map((link, idx) => (
+    
          
       )}
     </li>
