@@ -11,10 +11,7 @@ const badgeVariants = cva(
         default:
           "border-transparent bg-primary   
 
-    },
-    defaultVariants: {
-      variant: "default",
-    },
+    
   }
 )
 
